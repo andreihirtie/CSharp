@@ -1,0 +1,4 @@
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\StringTut.csprojAssemblyReference.cache
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\StringTut.csproj.CoreCompileInputs.cache
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.exe
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.pdb

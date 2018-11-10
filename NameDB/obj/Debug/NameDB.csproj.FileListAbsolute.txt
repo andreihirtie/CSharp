@@ -1,0 +1,7 @@
+D:\00 Proj\C#\C#.App1\NameDB\bin\Debug\NameDB.exe.config
+D:\00 Proj\C#\C#.App1\NameDB\bin\Debug\NameDB.exe
+D:\00 Proj\C#\C#.App1\NameDB\bin\Debug\NameDB.pdb
+D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.csprojAssemblyReference.cache
+D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.csproj.CoreCompileInputs.cache
+D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.exe
+D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.pdb

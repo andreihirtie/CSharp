@@ -1,0 +1,7 @@
+D:\00 Proj\C#\C#.App1\App2\bin\Debug\App2.exe.config
+D:\00 Proj\C#\C#.App1\App2\bin\Debug\App2.exe
+D:\00 Proj\C#\C#.App1\App2\bin\Debug\App2.pdb
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.csprojAssemblyReference.cache
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.csproj.CoreCompileInputs.cache
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.exe
+D:\00 Proj\C#\C#.App1\App2\obj\Debug\App2.pdb
