@@ -5,3 +5,10 @@ D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.csprojAssemblyReference.cache
 D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.csproj.CoreCompileInputs.cache
 D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.exe
 D:\00 Proj\C#\C#.App1\NameDB\obj\Debug\NameDB.pdb
+E:\Proj\CSharp\NameDB\bin\Debug\NameDB.exe.config
+E:\Proj\CSharp\NameDB\bin\Debug\NameDB.exe
+E:\Proj\CSharp\NameDB\bin\Debug\NameDB.pdb
+E:\Proj\CSharp\NameDB\obj\Debug\NameDB.csprojAssemblyReference.cache
+E:\Proj\CSharp\NameDB\obj\Debug\NameDB.csproj.CoreCompileInputs.cache
+E:\Proj\CSharp\NameDB\obj\Debug\NameDB.exe
+E:\Proj\CSharp\NameDB\obj\Debug\NameDB.pdb

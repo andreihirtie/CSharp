@@ -12,7 +12,7 @@ namespace NameDB
         }
 
         public string EditRegister
-        {            
+        {
             set
             {
                 if (value == "delete")
@@ -24,6 +24,7 @@ namespace NameDB
             }
         }
     }
+
     class Client
     {
         private string clientName;
@@ -55,33 +56,36 @@ namespace NameDB
             set { clientMarriageStatus = value; }
         }
     }
+
+    
+
     class MainProgram
     {
-        static void Main()
-        {
-            // missing -- parse name for invalid characters 
-            //         -- validate age until valid value entered
-            //         -- validate yes/no marriage 
-            //         -- 
-            // rewrite BankRegister
+        // missing -- parse name for invalid characters 
+        //         -- validate age until valid value entered
+        //         -- validate yes/no marriage 
+        //         -- 
+        // rewrite BankRegister
+        /*
+        BankRegister MainRegister = new BankRegister();
 
-            BankRegister MainRegister = new BankRegister();
+        Console.WriteLine("Please enter client's first name:");
+        var first_name = Console.ReadLine();
+        Console.WriteLine("Please enter client's last name:");
+        var last_name = Console.ReadLine();
 
-            Console.WriteLine("Please enter the new client name:");
-            var input = Console.ReadLine();
-
-            Client TH = new Client();
-            TH.ClientName = input;
+        Client TH = new Client();
+        TH.ClientName = input;
 
             Console.WriteLine("Please provide client age:");
-            input = Console.ReadLine();   
+            input = Console.ReadLine();
 
-            if ( ! (int.TryParse(input, out int Age)) )
+            if ( !(int.TryParse(input, out int Age)))
             {
                 Console.WriteLine("Please provide an actual age:");
             }
             else
-            { 
+            {
                 TH.ClientAge = int.Parse(input);
             }
 
@@ -101,18 +105,61 @@ namespace NameDB
 
             MainRegister.EditRegister = "add";
 
-                /*
-            Client TH = new Client
-            {
-                ClientAge = age,
-                ClientMarriageStatus = true,
-                ClientName = name
-            };*/
+            /*
+        Client TH = new Client
+        {
+            ClientAge = age,
+            ClientMarriageStatus = true,
+            ClientName = name
+        };
 
             Console.WriteLine($"Our new client is {TH.ClientName} age {TH.ClientAge} married status: {TH.ClientMarriageStatus}");
             Console.Write("\n");
 
-            Console.WriteLine($"Total number of customers so far: {MainRegister.ReturnRegister}");
+            Console.WriteLine($"Total number of customers so far: {MainRegister.ReturnRegister}"); */
+        enum Main_exec
+        {
+            quit,
+            add_client,
+            remove_client,
+            see_client_list,
+        };
+
+        static void Main()
+        {
+            while (true)
+            {
+                Console.WriteLine("You are in the main menu. Please select an option: ");
+                Console.WriteLine("\t1. Add new client.");
+                Console.WriteLine("\t2. Remove client.");
+                Console.WriteLine("\t3. See list of clients.");
+                Console.WriteLine("\t4. Quit program.");
+                Console.Write("\t Your option: ");
+
+                if (!UInt16.TryParse(Console.ReadLine(), out UInt16 _current_state))
+                    Console.WriteLine(" Please enter a valid option from 1 - 4.");
+
+                switch (_current_state)
+                {
+                    case (UInt16)Main_exec.quit:
+                        {
+                            string answer;
+                            Console.Write("Are you sure you want to quit? Yes/No: ");
+                            answer = Console.ReadLine();
+                            if (answer.ToUpper() == "YES" || answer.ToUpper() == "Y")
+                                return;
+                            else
+                                continue;
+                        }
+
+                    case (UInt16)Main_exec.add_client:
+                        {
+
+                        }
+
+                }
+            }
         }
     }
 }
+
